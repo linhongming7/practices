@@ -7,7 +7,7 @@ package codewars;
  */
 public class FindOdd {
     public static void main(String[] args){
-        int[] a = {3,5,3,18,4,4,5,6,6,1,1};
+        int[] a = {1,2,3,5,3,18,4,4,5,6,6,1,2,};
         System.out.println(findIt(a));
     }
 
@@ -23,4 +23,14 @@ public class FindOdd {
         }
         return -1;
     }
+    /*
+    //异或   按二进制码计算
+    public static int findIt(int[] A){
+        int xor = 0;
+        for(int xor1 : A ){
+            xor ^= xor1;
+        }
+        return xor;
+    }
+    */
 }
