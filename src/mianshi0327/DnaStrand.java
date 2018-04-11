@@ -1,5 +1,8 @@
 package mianshi0327;
 
+/**
+ *  DNA 单链结构推出正常双链结构
+ */
 public class DnaStrand {
     public static String makeComplement(String dna) {
         //Your code

@@ -1,7 +1,7 @@
 package mianshi0327;
 
 /**
- * 判断是否为有效数字
+ * 判断是否为有效数字（未成功）
  */
 public class IsNumber {
     public static boolean isNum(String s){

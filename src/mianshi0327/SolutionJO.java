@@ -17,8 +17,8 @@ public class SolutionJO {
                     min++;
                     max--;
                 }
-                max--;
-            }else min++;
+                max--;      //遇到偶数自减1
+            }else min++;  //奇数的话继续执行
 
         }
         return i;
